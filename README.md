@@ -17,6 +17,7 @@ def pscan(port):
 
 # for loop to cycle through ports and print results
 for x in range(1,1024):
+	
 	if pscan(x):
 		print('Port',x,'is open')
 		
